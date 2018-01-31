@@ -9,7 +9,7 @@ var extract = require('extract-zip');
 
 var properties = require('./properties.js');
 var apiKeySecurity = require('./apikeySecurity.js');
-var quota = require('./quota.js');
+//var quota = require('./quota.js');
 var deployProxy = require('./deploy.js');
 var create = require('./createFilesforNewProxies');
 var securityPolicies=require('./policiesForSecurityManagement');
