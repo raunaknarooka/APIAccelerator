@@ -1,6 +1,6 @@
 module.exports = {
-    organization: 'raunaknarooka',
-    username: 'raunak.narooka@lntinfotech.com',
-    password: 'Raunak@456',
+    organization: 'apigeeuser12-eval',
+    username: 'apigeeuser12@gmail.com',
+    password: 'Testuser@12',
     environments: 'test'
 }
