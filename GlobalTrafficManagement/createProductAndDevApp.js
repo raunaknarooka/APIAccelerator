@@ -30,7 +30,7 @@ createProductAndApp: function (opts, stringOfProxies ) {
      console.log('Creating developer app');
     opts.name = 'proxyApp'
     opts.apiProducts = opts.productName
-    opts.email = 'raunak.narooka@lntinfotech.com'
+    opts.email = 'apigeeuser12@gmail.com'
   console.log(JSON.stringify(opts));
     sdk.createApp(opts)
     .then(function(result){
