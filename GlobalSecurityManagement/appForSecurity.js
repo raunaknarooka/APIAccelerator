@@ -72,9 +72,9 @@ function uploader(i) {
           opts['revision'] = result.deployments[0].revision;
           sdk.fetchProxy(opts).then((result) => {
               
-            extract('./'+ data[i].Name +'.zip', {dir: '/APIAccelerator/GlobalSecurityManagement/apigee'+data[i].Name}, function (err) {
+            extract('./'+ data[i].Name +'.zip', {dir: '/home/oem/Documents/apigee'+data[i].Name}, function (err) {
                 // extraction is complete. make sure to handle the err
-               fsExtra.copySync('/APIAccelerator/GlobalSecurityManagement/apigee'+data[i].Name+'/apiproxy','./apiproxy');
+               fsExtra.copySync('/home/oem/Documents/apigee'+data[i].Name+'/apiproxy','./apiproxy');
                 delete opts['revision'];
                 delete opts['api'];
                 securityPolicies.applySecurityPolicies(data[i]).then(()=> {
